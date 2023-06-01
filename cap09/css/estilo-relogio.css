@@ -1,0 +1,42 @@
+:root {
+
+    --color-dark: rgb(14, 14, 14);
+    --color-dark2: rgb(49, 51, 56);
+    --color-white: #fff;
+    --color-green: #5cff58;
+    --color-green2: rgb(4, 216, 0);
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+h1 {
+    font-size: 3rem;
+    border-bottom: 2px solid var(--color-green);
+    letter-spacing: .6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+#container {
+    background-color: var(--color-dark2);
+    padding: 0 6rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-green);
+}
+
+#container-2 {
+    background-color: var(--color-dark2);
+    padding: 0 3rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-green);
+}
